@@ -1,0 +1,7 @@
+<% include partials/header%>
+
+<% posts.forEach(function (t) { %>
+    <li> <strong><%= t.title%></strong>: <%=t.author%></li>
+<% }) %>
+
+<% include partials/footer%>
